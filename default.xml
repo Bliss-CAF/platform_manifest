@@ -22,7 +22,7 @@
 
   <remote name="gitlab-incom"
           fetch="https://gitlab.incom.co" />
-
+          
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
@@ -570,5 +570,5 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1-sm" name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0-sm" name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
 <!-- END TOOLCHAINS -->
-
+  <include name="shits_4_caf.xml" />
 </manifest>

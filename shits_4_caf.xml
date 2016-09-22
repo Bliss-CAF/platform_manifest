@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Bliss-CAF"
+          fetch="https://github.com/Bliss-CAF" />      
+          
+<!-- HARDWARE -->
+  <remove-project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Bliss-CAF/hardware_qcom_audio" remote="github" revision="n7.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0-caf-8994" />
+  <remove-project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="Bliss-CAF" revision="n7.0-caf" />
+  <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="Bliss-CAF" revision="n7.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="Bliss-CAF" revision="n7.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="Bliss-CAF" revision="n7.0-caf-8994" />
+  <remove-project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="Bliss-CAF" revision="n7.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="Bliss-CAF" revision="n7.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="Bliss-CAF" revision="n7.0-caf-8994" />
+  <remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="Bliss-CAF" revision="n7.0-caf" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/ril" name="hardware_ril" remote="Bliss-CAF" revision="n7.0" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="Bliss-CAF" revision="n7.0-caf" />
+</manifest>
