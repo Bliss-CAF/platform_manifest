@@ -41,5 +41,7 @@
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.0" />
   <project path="system/core" name="android_system_core" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
