@@ -63,5 +63,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
+  <project path="bionic" name="android_bionic" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
