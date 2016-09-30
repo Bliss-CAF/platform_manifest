@@ -37,4 +37,10 @@
   <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/ril" name="hardware_ril" remote="Bliss-CAF" revision="n7.0" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="Bliss-CAF" revision="n7.0-caf" />
+  <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="Bliss-CAF" revision="n7.0" />
+
+  <!-- Empty repos
+  <project path="external/jpeg" name="external_jpeg" remote="Bliss-CAF" revision="n7.0" />
+  -->
 </manifest>
