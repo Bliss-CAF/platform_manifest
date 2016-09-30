@@ -46,5 +46,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
