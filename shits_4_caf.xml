@@ -39,8 +39,7 @@
   <project path="hardware/ril-caf" name="hardware_ril" remote="Bliss-CAF" revision="n7.0-caf" />
   <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.0" />
+  <project path="system/core" name="android_system_core" remote="Bliss-CAF" revision="n7.0" />
 
-  <!-- Empty repos
-  <project path="external/jpeg" name="external_jpeg" remote="Bliss-CAF" revision="n7.0" />
-  -->
 </manifest>
