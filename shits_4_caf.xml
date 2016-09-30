@@ -55,5 +55,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/native" name="frameworks_native" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
