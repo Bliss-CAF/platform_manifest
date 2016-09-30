@@ -61,5 +61,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
