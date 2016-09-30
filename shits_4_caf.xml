@@ -57,5 +57,9 @@
   <project path="frameworks/native" name="frameworks_native" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinycompress" name="external_tinycompress" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
