@@ -7,7 +7,7 @@
 <!-- HARDWARE -->
   <remove-project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.0" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="Bliss-CAF/hardware_qcom_audio" remote="github" revision="n7.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="Bliss-CAF" revision="n7.0-caf-8994" />
   <remove-project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.0" />
