@@ -53,5 +53,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="n7.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="Bliss-CAF" revision="n7.0" />
 
 </manifest>
