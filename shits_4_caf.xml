@@ -68,5 +68,16 @@
   <project path="system/vold" name="android_system_vold" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="Bliss-CAF" revision="n7.0" />
+  
+  <!--DEVICES-->
+  <project name="Bliss-CAF/device_htc_m8" path="device/htc/m8" remote="github" revision="n7.0" />
+  <project name="Bliss-CAF/device_htc_m8-common" path="device/htc/m8-common" remote="github" revision="n7.0" />
+  <project name="Bliss-CAF/device_htc_msm8974-common" path="device/htc/msm8974-common" remote="github" revision="n7.0" />
+  
+  <!--KERNELS-->
+  <project name="Bliss-CAF/kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="n7.0" />
+  
+  <!--VENDORS-->
+  <project name="Bliss-CAF/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="n7.0" />
 
 </manifest>
