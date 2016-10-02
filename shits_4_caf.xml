@@ -62,6 +62,8 @@
   <!--SYSTEM-->
   <remove-project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.0" />
   <project path="system/core" name="android_system_core" remote="Bliss-CAF" revision="n7.0" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="Bliss-CAF" revision="n7.0" />
   <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
